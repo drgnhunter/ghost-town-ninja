@@ -1,0 +1,315 @@
+.b0 {
+    margin: 0px;
+}
+
+.main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.gui {
+    width: 100vw;
+    height: 100vh;
+}
+
+.info {
+    width: 900px;
+    height: 900px;
+    background-image: url("level_select/table2.png");
+    background-size: contain;
+    background-repeat: none;
+    opacity: 1;
+    position: absolute;
+}
+
+.pc {
+    font-size: 70px;
+    margin-left: 200px;
+}
+
+
+
+.wKey {
+    width: 130px;
+    height: 130px;
+    margin-left: 300px;
+    margin-top: -30px;
+    position: absolute;
+
+}
+
+
+
+.jumpDef {
+    height: 150px;
+    margin-top: -50px;
+    margin-left: 430px;
+    position: absolute;
+}
+
+.enterKey {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 120px;
+}
+
+.runKey {
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 430px;
+    position: absolute;
+}
+
+.sKey {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 280px;
+}
+
+.slideKey {
+    height: 150px;
+    margin-top: 250px;
+    margin-left: 430px;
+    position: absolute;
+}
+
+.aKey {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 420px;
+}
+
+.attackKey {
+    height: 150px;
+    margin-top: 400px;
+    margin-left: 430px;
+    position: absolute;
+}
+
+.next {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 500px;
+}
+
+.close {
+    position: absolute;
+    transform: rotate(20deg);
+    margin-top: -150px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+@media(max-width:992px) {
+    .info {
+        width: 800px;
+        height: 800px;
+    }
+
+    .next {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 400px;
+    }
+}
+
+@media(max-width:768px) {
+    .info {
+        width: 700px;
+        height: 700px;
+    }
+
+    .next {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 400px;
+    }
+
+    .pc {
+        font-size: 50px;
+        margin-left: 200px;
+    }
+
+    .wKey {
+        width: 110px;
+        height: 110px;
+        margin-left: 200px;
+        margin-top: -30px;
+        position: absolute;
+
+    }
+
+    .jumpDef {
+        height: 140px;
+        margin-top: -50px;
+        margin-left: 350px;
+        position: absolute;
+    }
+
+
+    .enterKey {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+    .runKey {
+        height: 140px;
+        margin-top: 90px;
+        margin-left: 350px;
+        position: absolute;
+    }
+
+    .sKey {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 260px;
+    }
+
+    .slideKey {
+        height: 140px;
+        margin-top: 230px;
+        margin-left: 350px;
+        position: absolute;
+    }
+
+    .aKey {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 380px;
+    }
+
+    .attackKey {
+        height: 140px;
+        margin-top: 360px;
+        margin-left: 350px;
+        position: absolute;
+    }
+
+    .next {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        margin-left: 510px;
+        margin-top: 390px;
+    }
+    
+    .close {
+        height: 13vh;
+        margin-top: -120px;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:606px){
+    .info {
+        width: 550px;
+        height: 550px;
+        margin-top: 20vh;
+        margin-left: -10vw;
+    }
+    .pc {
+        font-size: 45px;
+        margin-left: 150px;
+    }
+
+    .wKey {
+        width: 90px;
+        height: 90px; 
+        margin-left: 150px;
+        margin-top: -30px;
+        position: absolute;
+
+    }
+
+    .jumpDef {
+        height: 120px;
+        margin-top: -50px;
+        margin-left: 300px;
+        position: absolute;
+    }
+
+
+    .enterKey {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 80px;
+    }
+
+    .runKey {
+        height: 120px;
+        margin-top: 65px;
+        margin-left: 300px;
+        position: absolute;
+    }
+
+    .sKey {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 200px;
+    }
+
+    .slideKey {
+        height: 100px;
+        margin-top: 190px;
+        margin-left: 300px;
+        position: absolute;
+    }
+
+    .aKey {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 300px;
+    }
+
+    .attackKey {
+        height: 100px;
+        margin-top: 280px;
+        margin-left: 310px;
+        position: absolute;
+    }
+
+    .next {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin-left: 410px;
+        margin-top: 290px;
+    }
+    
+    .close {
+        height: 10vh;
+        margin-top: -120px;
+        margin-left: 40px;
+    }
+}

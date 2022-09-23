@@ -1,0 +1,34 @@
+
+ <!DOCTYPE html>
+ <html>
+ 
+ <head>
+     <title>Ghost Town Ninja</title>
+     <link rel="stylesheet" href="enemy_style.css" />
+ </head>
+ 
+ <body class="b0">
+     
+ 
+      <div class="main">
+         
+         
+         <img src="4_game_background.png" class="gui" id="background" />
+         <div class="info" id="info">
+             <h2 class="pc" id="pc">Enemy Types</h2>
+             <img src="flame.gif" class="flame" />
+             <img src="Full_Bat.gif" class="bat"/>
+             <img src="Full_Octupus.gif" class="octupus"/>
+             <h3 class="flameText">Flame</h2>
+            <h3 class="batText">Bat</h2>
+            <h3 class="octupusText">Octupus</h2>
+                <input type="image" src="level_select/Arrow.png" class="next" onclick="next();" onmouseenter="btnSound();"/>
+                <input type="image" src="level_select/ArrowLight2.png" class="previous" onclick="previous();" onmouseenter="btnSound();"/>
+                <img src="level_select/close_2.png" class="close" onclick="begining();" onmouseenter="cSound();"/>
+          </div>
+        
+     </div>
+     <script src="enemy_script.js"></script>
+ </body>
+ 
+ </html>

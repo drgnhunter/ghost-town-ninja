@@ -1,0 +1,306 @@
+.gui {
+    width: 100vw;
+    height: 100vh;
+}
+
+.b0 {
+    margin: 0px;
+    color: black;
+}
+
+.text {
+    width: 50vw;
+    font-family: "blackadder ITC";
+    font-size: 15vh;
+    color: #05A1E7;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 100vw;
+    text-decoration: underline;
+}
+
+.text2 {
+    width: 50vw;
+    font-family: "blackadder ITC";
+    font-size: 15vh;
+    color: #E74B05;
+    position: absolute;
+    margin-top: 10.5vh;
+    margin-left: 100vw;
+    text-decoration: underline;
+}
+
+.text2:hover {
+    color: #05A1E7;
+    cursor: context-menu;
+}
+
+.main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+.play {
+
+    height: 20vh;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 80vw;
+
+
+
+
+}
+
+.play:hover {
+    height: 25vh;
+
+}
+
+.about {
+
+    height: 20vh;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 120vw;
+}
+
+.about:hover {
+    height: 25vh;
+}
+
+@media(max-width:576px) {
+    .text {
+        font-size: 5vh;
+        margin-top: 40vh;
+
+    }
+
+    .text2 {
+        font-size: 5vh;
+        margin-top: 40.25vh;
+    }
+
+    .play {
+        height: 8vh;
+        margin-top: 55vh;
+        margin-left: 65vw;
+    }
+
+    .about {
+        height: 8vh;
+        margin-top: 55vh;
+    }
+
+    .play:hover {
+        height: 10vh;
+    }
+
+    .about:hover {
+        height: 10vh;
+    }
+}
+
+@media(min-width:576px) {
+    .text {
+        font-size: 7vh;
+        margin-top: 35vh;
+
+    }
+
+    .text2 {
+        font-size: 7vh;
+        margin-top: 35.5vh;
+    }
+
+    .play {
+        height: 8vh;
+        margin-top: 55vh;
+        margin-left: 65vw;
+    }
+
+    .about {
+        height: 8vh;
+        margin-top: 55vh;
+    }
+
+    .play:hover {
+        height: 10vh;
+    }
+
+    .about:hover {
+        height: 10vh;
+    }
+}
+
+@media(min-width:768px) {
+    .text {
+        font-size: 10vh;
+        margin-top: 30vh;
+
+    }
+
+    .text2 {
+        font-size: 10vh;
+        margin-top: 30.5vh;
+    }
+
+    .play {
+        height: 12vh;
+        margin-top: 55vh;
+        margin-left: 65vw;
+    }
+
+    .about {
+        height: 12vh;
+        margin-top: 55vh;
+    }
+
+    .play:hover {
+        height: 15vh;
+    }
+
+    .about:hover {
+        height: 15vh;
+    }
+}
+@media(min-width:992px){
+    .text {
+        font-size: 13vh;
+        margin-top: 20vh;
+
+    }
+
+    .text2 {
+        font-size: 13vh;
+        margin-top: 20.5vh;
+    }
+
+    .play {
+        height: 20vh;
+        margin-top: 55vh;
+        margin-left: 65vw;
+    }
+
+    .about {
+        height: 20vh;
+        margin-top: 55vh;
+    }
+
+    .play:hover {
+        height: 25vh;
+    }
+
+    .about:hover {
+        height: 25vh;
+    }
+
+}
+
+@media(min-width:1200px){
+    .text {
+        font-size: 13vh;
+        margin-top: 20vh;
+
+    }
+
+    .text2 {
+        font-size: 13vh;
+        margin-top: 20.5vh;
+    }
+
+    .play {
+        height: 20vh;
+        margin-top: 55vh;
+        margin-left: 65vw;
+    }
+
+    .about {
+        height: 20vh;
+        margin-top: 55vh;
+    }
+
+    .play:hover {
+        height: 25vh;
+    }
+
+    .about:hover {
+        height: 25vh;
+    }
+}
+
+
+
+@media(min-width:1400px) {
+    .text {
+        width: 50vw;
+        font-family: "blackadder ITC";
+        font-size: 20vh;
+        color: #05A1E7;
+        position: absolute;
+        margin-top: 10vh;
+        margin-left: 100vw;
+        text-decoration: underline;
+    }
+
+    .text2 {
+        width: 50vw;
+        font-family: "blackadder ITC";
+        font-size: 20vh;
+        color: #E74B05;
+        position: absolute;
+        margin-top: 10.5vh;
+        margin-left: 100vw;
+        text-decoration: underline;
+    }
+
+    .text2:hover {
+        color: #05A1E7;
+        cursor: context-menu;
+    }
+
+    .main {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+
+    }
+
+    .play {
+
+        height: 25vh;
+        position: absolute;
+        margin-top: 65vh;
+        margin-left: 60vw;
+
+
+
+
+    }
+
+    .play:hover {
+        height: 30vh;
+
+    }
+
+    .about {
+
+        height: 25vh;
+        position: absolute;
+        margin-top: 65vh;
+        margin-left: 135vw;
+    }
+
+    .about:hover {
+        height: 30vh;
+    }
+
+}

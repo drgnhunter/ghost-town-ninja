@@ -1,0 +1,412 @@
+.info {
+    width: 900px;
+    height: 900px;
+    background-image: url("level_select/table2.png");
+    background-size: contain;
+    background-repeat: none;
+    opacity: 1;
+    position: absolute;
+}
+
+.b0 {
+    margin: 0px;
+}
+
+.gui {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.guide {
+    font-size: 70px;
+    margin-left: 330px;
+}
+
+.flame {
+    height: 200px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -50px;
+}
+
+.bat {
+    height: 100px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 320px;
+}
+
+.octupus {
+    height: 100px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 160px;
+}
+
+.flameText {
+
+    font-family: Arial;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.batText {
+
+    font-family: Arial;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 360px;
+    position: absolute;
+
+}
+
+.octupusText {
+    font-family: Arial;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 190px;
+    position: absolute;
+}
+
+.next {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 500px;
+}
+
+.previous {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 500px;
+}
+
+.close {
+    position: absolute;
+    transform: rotate(20deg);
+    margin-top: -150px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+@media(max-width:992px) {
+    .info {
+        width: 800px;
+        height: 800px;
+    }
+
+    .flame {
+        height: 200px;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: -50px;
+    }
+
+    .bat {
+        height: 100px;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 320px;
+    }
+
+    .octupus {
+        height: 90px;
+        position: absolute;
+        margin-left: 620px;
+        margin-top: 160px;
+    }
+
+    .flameText {
+
+        font-family: Arial;
+        font-size: 35px;
+        margin-left: 80px;
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    .batText {
+
+        font-family: Arial;
+        font-size: 35px;
+        margin-left: 80px;
+        margin-top: 360px;
+        position: absolute;
+
+    }
+
+    .octupusText {
+        font-family: Arial;
+        font-size: 35px;
+        margin-left: 80px;
+        margin-top: 190px;
+        position: absolute;
+    }
+
+    .previous {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 400px;
+    }
+
+    .close {
+        position: absolute;
+        transform: rotate(20deg);
+        margin-top: -150px;
+        height: 15vh;
+        margin-left: 3vw;
+    }
+}
+
+@media(max-width:768px) {
+    .info {
+        width: 700px;
+        height: 700px;
+        margin-top: 8vh;
+    }
+
+    .guide {
+        font-size: 60px;
+        margin-left: 260px;
+    }
+
+    .flame {
+        height: 200px;
+        position: absolute;
+        margin-left: 530px;
+        margin-top: -50px;
+    }
+
+    .bat {
+        height: 100px;
+        position: absolute;
+        margin-left: 530px;
+        margin-top: 290px;
+    }
+
+    .octupus {
+        height: 90px;
+        position: absolute;
+        margin-left: 550px;
+        margin-top: 160px;
+    }
+
+    .flameText {
+
+        font-family: Arial;
+        font-size: 30px;
+        margin-left: 80px;
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    .batText {
+
+        font-family: Arial;
+        font-size: 30px;
+        margin-left: 80px;
+        margin-top: 330px;
+        position: absolute;
+
+    }
+
+    .octupusText {
+        font-family: Arial;
+        font-size: 30px;
+        margin-left: 80px;
+        margin-top: 190px;
+        position: absolute;
+    }
+
+    .previous {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 370px;
+    }
+
+    .close {
+        position: absolute;
+        transform: rotate(20deg);
+        margin-top: -130px;
+        height: 15vh;
+        margin-left: 3vw;
+    }
+
+}
+
+@media(max-width:708px){
+    .info {
+        width: 600px;
+        height: 600px;
+        margin-top: 12vh;
+    }
+
+    .guide {
+        font-size: 50px;
+        margin-left: 240px;
+    }
+
+    .flame {
+        height: 170px;
+        position: absolute;
+        margin-left: 460px;
+        margin-top: -40px;
+    }
+
+    .bat {
+        height: 80px;
+        position: absolute;
+        margin-left: 460px;
+        margin-top: 300px;
+    }
+
+    .octupus {
+        height: 70px;
+        position: absolute;
+        margin-left: 470px;
+        margin-top: 160px;
+    }
+
+    .flameText {
+
+        font-family: Arial;
+        font-size: 27px;
+        margin-left: 60px;
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    .batText {
+
+        font-family: Arial;
+        font-size: 27px;
+        margin-left: 60px;
+        margin-top: 330px;
+        position: absolute;
+
+    }
+
+    .octupusText {
+        font-family: Arial;
+        font-size: 27px;
+        margin-left: 60px;
+        margin-top: 190px;
+        position: absolute;
+    }
+
+    .previous {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 370px;
+    }
+
+    .close {
+        position: absolute;
+        transform: rotate(20deg);
+        margin-top: -130px;
+        height: 15vh;
+        margin-left: 3vw;
+    }
+
+}
+
+@media(max-width:606px){
+    .info {
+        width: 570px;
+        height: 570px;
+        margin-top: 12vh;
+        margin-left: 0vw;
+    }
+
+    .guide {
+        font-size: 50px;
+        margin-left: 240px;
+    }
+
+    .flame {
+        height: 170px;
+        position: absolute;
+        margin-left: 440px;
+        margin-top: -70px;
+    }
+
+    .bat {
+        height: 80px;
+        position: absolute;
+        margin-left: 440px;
+        margin-top: 180px;
+    }
+
+    .octupus {
+        height: 70px;
+        position: absolute;
+        margin-left: 450px;
+        margin-top: 90px;
+    }
+
+    .flameText {
+
+        font-family: Arial;
+        font-size: 27px;
+        margin-left: 40px;
+        margin-top: 20px;
+        position: absolute;
+    }
+
+    .batText {
+
+        font-family: Arial;
+        font-size: 27px;
+        margin-left: 40px;
+        margin-top: 210px;
+        position: absolute;
+
+    }
+
+    .octupusText {
+        font-family: Arial;
+        font-size: 27px;
+        margin-left: 40px;
+        margin-top: 120px;
+        position: absolute;
+    }
+
+    .previous {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 270px;
+    }
+
+    .close {
+        position: absolute;
+        transform: rotate(20deg);
+        margin-top: -110px;
+        height: 10vh;
+        margin-left: 6vw;
+    }
+
+}

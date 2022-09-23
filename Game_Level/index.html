@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ghost Town Ninja</title>
+        <link rel="stylesheet" href="player_style.css" />
+        <link rel="stylesheet" href="background_style.css" />
+        <link rel="stylesheet" href="flame_style.css"/>
+        <link rel="stylesheet" href="octupus_style.css">
+        <link rel="stylesheet" href="bat_style.css" />
+        
+    </head>
+
+    <body class="body" onload="gameAudio();" onkeyup="keyCheck(event);" >
+        
+         <div class="background" id="background">
+            <canvas id="canvas1" class="canvas1"></canvas>
+            <span class="score" id="score">Score :0</span>
+            <span class="score2" id="score2">Score :0</span>
+
+            <div class="window1" id="window1">
+                <h3 class="deathText1">You just died!!</h3>
+                <h3 class="deathText2">You just died!!</h3>
+      
+                <h3 class="score1" id="score1">Score : </h3>
+                <h3 class="score3" id="score3">Score : </h3>
+      
+                <h3 class="flameText">You just got burnt by flame!!</h3>
+                <img src="flame.gif" class="flame1" />
+            </div>
+
+            <div class="window2" id="window2">
+                <h3 class="deathText3">You just died!!</h3>
+                <h3 class="deathText4">You just died!!</h3>
+      
+                <h3 class="score5" id="score5">Score : </h3>
+                <h3 class="score6" id="score6">Score : </h3>
+      
+                <h3 class="octoText">An octupus just attacked you!!</h3>
+                <img src="Full_Octupus.gif" class="octupus1" />
+              </div> 
+            
+
+             <img src="resources/Run/Run__000.png" class="ninja" id="ninja"/>
+             
+            </div>
+
+            <div class="window3" id="window3">
+                <h3 class="deathText5">You just died!!</h3>
+                <h3 class="deathText6">You just died!!</h3>
+      
+                <h3 class="score7" id="score7">Score : </h3>
+                <h3 class="score8" id="score8">Score : </h3>
+      
+                <h3 class="batText">A  bat just attacked you!!</h3>
+                <img src="Full_Bat.gif" class="bat1" />
+              </div>
+        <script src="background_script.js"></script>
+        <script  src="player_script.js"></script>
+        
+    </body>
+</html>
+

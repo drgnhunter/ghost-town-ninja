@@ -1,0 +1,24 @@
+
+.body{
+    margin: 0px;
+    background-color: black;
+}
+
+.canvas1{
+    
+    
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    margin-top: -50vh;
+    margin-left: 200vw;
+    
+    overflow-x: hidden;
+    
+
+}
+
+
+

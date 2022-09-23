@@ -1,0 +1,139 @@
+.body{
+    margin: 0px;
+    background-color: #42301B;
+}
+
+.level1{
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 3px 3px black;
+}
+
+.level1:hover{
+    box-shadow: 2px 2px 3px 3px #08B7A1;
+    cursor: pointer;
+}
+.level1Text{
+    font-family: blackadder ITC;
+    font-size: 60px;
+    margin-left: 300px;
+    margin-top: -5px;
+    color: #D66D55;
+    
+}
+
+.level1Text2{
+    font-family: blackadder ITC;
+    font-size: 60px;
+    margin-left: 300px;
+    margin-top: -140px;
+    color: black;
+    position: absolute;
+}
+.level1Text2:hover{
+    color: #08B7A1;
+    cursor: pointer;
+}
+
+.backbtn{
+    background-color: #B7081E;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 250px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 150px;
+    border-radius: 5px;
+    font-family: Arial;
+
+    box-shadow: 2px 2px 3px 3px black;
+}
+
+.backbtn:hover{
+    background-color: #08B7A1;
+    cursor: pointer;
+}
+
+@media(max-width:789px){
+    .level1{
+        height: 270px;
+        margin-top: 200px;
+        margin-left: 50px;
+        box-shadow: 2px 2px 3px 3px black;
+    }
+    
+    .level1Text{
+        font-family: blackadder ITC;
+        font-size: 60px;
+        margin-left: 250px;
+        margin-top: -5px;
+        color: #D66D55;
+        
+    }
+
+    .level1Text2{
+    font-family: blackadder ITC;
+    font-size: 60px;
+    margin-left: 250px;
+    margin-top: -140px;
+    color: black;
+    position: absolute;
+}
+}
+
+@media(max-width:711px){
+    .level1{
+        height: 200px;
+        margin-top: 200px;
+        margin-left: 20px;
+        box-shadow: 2px 2px 3px 3px black;
+    }
+    
+    .level1Text{
+        font-family: blackadder ITC;
+        font-size: 60px;
+        margin-left: 150px;
+        margin-top: -5px;
+        color: #D66D55;
+        
+    }
+
+    .level1Text2{
+    font-family: blackadder ITC;
+    font-size: 60px;
+    margin-left: 150px;
+    margin-top: -140px;
+    color: black;
+    position: absolute;
+}
+}
+
+@media(max-width:517px){
+    .level1{
+        height: 170px;
+        margin-top: 200px;
+        margin-left: 5px;
+        box-shadow: 2px 2px 3px 3px black;
+    }
+
+    
+    .level1Text{
+        font-family: blackadder ITC;
+        font-size: 60px;
+        margin-left: 100px;
+        margin-top: -5px;
+        color: #D66D55;
+        
+    }
+
+    .level1Text2{
+    font-family: blackadder ITC;
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: -140px;
+    color: black;
+    position: absolute;
+}
+}
