@@ -5,7 +5,7 @@ var clickSound =  new Audio("mixkit-select-click-1109.wav");
 clickSound.loop = false;
 
 function level1(){
-  window.location = "../Game_Level/index.html";
+  window.location = "Game_Level/index.html";
 }
 
 function b(){
